@@ -1,3 +1,5 @@
+export const token = process.env.SANITY_WRITE_TOKEN;
+
 export const apiVersion =
   process.env.NEXT_PUBLIC_SANITY_API_VERSION || '2024-12-22'
 
